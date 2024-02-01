@@ -1,0 +1,87 @@
+/* ****************************SLIDER*******************************/
+
+/* **********************COUNTER******************** */
+
+var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('.counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 5000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+
+/* ************************* MENU DEROULANT ************************ */
+
+
+let faMenu = document.querySelector('#faMenu');
+let nav = document.querySelector('.header2');
+
+nav.style.display='none';
+
+faMenu.addEventListener('click', function() {
+    if(nav.style.display=='flex'){
+        nav.style.display='none';
+    }else{
+        nav.style.display='flex';
+
+    };
+}); 
+/**************************Nombres aléatoire********************* */
+
+nombre_aleatoir();
+
+function nombre_aleatoir() {
+  var max = 10;
+  var nb1 = document.getElementById('nb1');
+  var nb2 = document.getElementById('nb2');
+  var answer = document.getElementById('answer');
+  var incorrecte = document.getElementById('incorrecte');
+  var form = document.getElementById('form');
+
+  var value1 = Math.floor(Math.random() * max);
+  var value2 = Math.floor(Math.random() * max);
+
+  nb1.innerHTML = value1;
+  nb2.innerHTML = value2;
+
+  var result = parseInt(nb1.innerHTML) + parseInt(nb2.innerHTML);
+  // console.log(result+ ' '+ typeof(result));
+  form.onsubmit = (e) => {
+    if (parseInt(answer.value) != parseInt(result)) {
+      // console.log(typeof(parseInt(result)));
+      incorrecte.style.display = 'flex';
+
+      e.preventDefault();
+      // return false;
+    }
+    else {
+      return true;
+    }
+  };
+}
+

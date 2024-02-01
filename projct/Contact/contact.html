@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+
+</head>
+
+<body>
+ <nav class=" fixed-top">
+  <div class="navbar1 fixed-center">
+
+   <ul style="margin: 0;">
+    <p><a href="#"><i class="fa-solid fa-phone" style="color: #fff;  "></i>+212623097120</a></p>
+    <p><a href="#"><i class="fa-regular fa-envelope" style="color: #fff;"></i>_info@emple.com</a></p>
+    <p><a href="#"><i class="fa-solid fa-house" style="color: #fff;"></i>_11Deeneside,Seghil,NE23 7ER</a></p>
+    </ul>
+  </div>
+
+
+
+  <div class="banner " >
+
+     <div class="container  "> 
+
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <img src="/img/istockphoto-1148805492-612x612-removebg-preview.png" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="container-fluid">
+         
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home+</a>
+               
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+                <ul id="doropdown">
+                  <li ><a href="Services/Service One.html">Service One</a></li>
+                  <li> <a href="Services/Service Twoo.html">Service two</a></li>
+                  <li><a href="Services/Sevrice Three.html"> Service three</a></li>
+                  <li> Service foor</li>
+                  <li> Service five</li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Blog/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="/Page/page.html">Page</a>
+               
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="/Contact/contact.html">Contact</a>
+              </li>
+             
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div id="contact">
+  <h1>Contact</h1>
+</div>
+
+<div class="ctc">
+<div class="content">
+  <div class="container">
+     <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="contact-form">
+           <h3 class="title color_black">DEVIS GRATUIT</h3>
+           <p>
+              Pour plus d'informations, un devis gratuit, une question sur nos compétences
+              ou sur nos traitements de désinsectisation, dératisation, désinfection, déreptilisation et 
+              à casablanca et partout au maroc, n'hésitez pas à nous contacter, notre équipe est à votre disposition.
+
+              Nous prendrons contact avec vous dès réception de votre message
+           </p>
+           <p>
+              N'hésitez pas à nous contacter pour un devis personnalisé gratuit.
+           </p>
+           <div class="col-sm-8">
+           <form id="devisForm" method="POST">
+
+<div>
+<label for="">Nom/Prenom <span class="necessary">*</span></label> <br>
+<input style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="nameAndLastName" type="text" placeholder="Nom prenom" required="">
+</div>
+<div>
+<label for="">Ville <span class="necessary">*</span></label><br>
+<select style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="senderVille" required="">
+   <option value="" disabled="" selected="" hidden="">Choisi la Ville</option>
+                   <option value="10"> Agadir </option>
+                   <option value="17"> Beni Mellal </option>
+                   <option value="22"> Berkane </option>
+                   <option value="1"> Casablanca </option>
+                   <option value="16"> El Jadida </option>
+                   <option value="2"> Fes </option>
+                   <option value="9"> Kenitra </option>
+                   <option value="20"> Khemisset </option>
+                   <option value="15"> Khouribga </option>
+                   <option value="21"> laayoune </option>
+                   <option value="4"> Marrakech </option>
+                   <option value="6"> Meknes </option>
+                   <option value="14"> Mohammedia </option>
+                   <option value="18"> Nador </option>
+                   <option value="7"> Oujda </option>
+                   <option value="8"> Rabat </option>
+                   <option value="13"> Safi </option>
+                   <option value="5"> Sale </option>
+                   <option value="3"> Tanger </option>
+                   <option value="19"> Taza </option>
+                   <option value="12"> Temara </option>
+                   <option value="11"> Tetouan </option>
+               </select>
+</div>
+<div>
+<label for="">Tel<span class="necessary">*</span></label><br>
+<input style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="tel" type="text" placeholder="Tél" maxlength="10" onkeypress="return onlyNumberKey(event)" required="">
+</div>
+<div>
+<label for="">Email<span class="necessary">*</span></label><br>
+<input style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="Email" type="text" placeholder="Email" required="">
+</div>
+<div>
+<label for="">Type de local<span class="necessary">*</span></label><br>
+<select style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="ProOrPar" id="TypeLocal" required="">
+   <option value="" disabled="" selected="" hidden="">Choisi le Type de local</option>
+                   <option value="1"> Particulier </option>
+                   <option value="2"> Professionnel </option>
+               </select>
+</div>
+<div class="inputAndLabelCon" id="Part">
+       <label for="">Sujet <span class="necessary">*</span></label><br>
+       <select style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="messageSubject1" id="pr">
+           <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
+                                   <option value="1"> Studio </option>
+                                   <option value="2"> Appartement </option>
+                                   <option value="3"> Maison </option>
+                                   <option value="4"> Villa </option>
+                                   <option value="5"> Autre </option>
+                               </select>
+   </div>
+
+   <div class="inputAndLabelCon" id="Prof">
+       <label for="">Sujet <span class="necessary">*</span></label><br>
+       <select style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " name="messageSubject2" id="pf">
+           <option value="" disabled="" selected="" hidden="">Choisi le Sujet</option>
+                                   <option value="6"> Magasin </option>
+                                   <option value="7"> Showroom </option>
+                                   <option value="8"> Supermarche </option>
+                                   <option value="9"> usine </option>
+                                   <option value="10"> Autre </option>
+                               </select>
+   </div>
+
+   <div class="inputAndLabelCon" id="atre">
+       <label for="">Autre <span class="necessary">*</span></label><br>
+       <input style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 40px; " type="text" name="messageSubject3" id="atr" placeholder="Autre">
+   </div>
+
+
+
+   <!-- script -->
+<script>
+$(document).ready(function(){ $("#Part").hide();$("#Prof").hide();$("#atre").hide();});
+</script>
+
+<script>
+let sltplc = document.querySelector('#TypeLocal');
+sltplc.addEventListener('change',function(){
+
+if (this.value =='2'){
+$("#Prof").show();
+$("#atre").hide();
+$('#atr').val('');
+$("#Part").hide();
+$("#pr")[0].selectedIndex = 0;
+
+let slpf = document.querySelector("#pf");
+slpf.addEventListener('change',function(){
+if (this.value ==10){
+   $("#atre").show();
+}
+else {
+   $("#atre").hide();
+   $('#atr').val('');
+}
+});
+}
+else 
+if (this.value =='1'){
+   $("#Part").show();
+   $("#atre").hide();
+   $('#atr').val('');
+   $("#Prof").hide();
+   $("#pf")[0].selectedIndex = 0;
+
+   let slpr = document.querySelector("#pr");
+   slpr.addEventListener('change',function(){
+   if (this.value ==5){
+       $("#atre").show();
+   }
+   else {
+       $("#atre").hide();
+       $('#atr').val('');
+       }
+   });
+}
+});
+</script>
+
+<div>
+<label for="">Message<span class="necessary">*</span></label><br>
+<textarea style=" border: 1px solid rgb(10, 10, 10) !important;
+font-family: arial;
+font-Weight: bold;
+font-size: 18px;
+color: #6c757d;  width: 100%;
+height: 100px; " name="message" required=""></textarea>
+</div>
+
+<br>
+
+
+<button id="submitButton" style="color:#fff; width: 100% ; background-color:#000; font-weight:bold" name="demandADevis">ENVOYER</button>
+
+</form>
+     
+</div>
+  </div>
+
+      <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
+           <div class="address widget">
+              <h3 class="title">Nos coordonnées </h3>
+              <ul class="contact-us">
+
+              <li>
+
+                <p>
+                 <i class="fa-solid fa-location-dot"></i>
+                  <strong>Téléphone:</strong>+21206 15 59 90 10
+               </p>
+            </li>
+
+               <li>
+                
+                  <p>
+                    <i class="fa-solid fa-phone"></i>
+                     <strong>Téléphone:</strong>+212 06 15 59 90 10
+                  </p>
+               </li>
+               <li>
+              
+                  <p>
+                    <i class="fa-solid fa-phone"></i>
+                     <strong>Fixe:</strong>+212 06 155 990 10
+                  </p>
+               </li>
+               <li>
+                  
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                     <strong>Email:</strong><a class="lien" href="mailto:master.antinuisibles.maroc@gmail.com">antinu.maroc@gmail.com</a>
+
+                    
+                    </p>
+               </li>
+            </ul><br><br>
+           </div>
+           <div class="contact-info widget">
+              <h3 class="title">Heures de travail</h3>
+              <ul>
+                 <li><i class="icon-time"> </i>24H/24 et 7J/7</li>
+                 
+              </ul>
+           </div>
+           <div class="">
+              
+              <h3>Société de traitement des rats à casablanca</h3>
+           <ul class="why">
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Anti rats à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Traitement de souris et rats àcasablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Société de dératisation casablanca </a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Dératisation maison à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Dératisation appartement à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Dératisation villa à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Dératisation bureau à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Dératisation hôtel à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> <a href="" class="color_black">Dératisation immeuble à casablanca</a></li>
+               <li><i class="fa-solid fa-check"></i> 
+                <a href="" class="color_black">Dératisation restaurant à casablanca</a></li>
+           </ul>
+
+           <!-- Default button -->
+           <div class="my_4 text-center">
+              <button type="button" class="btn btn-dark number_button"><i class="fas fa-phone"></i>+212 630-078072</button>
+             </div>
+   
+           </div>
+        </div>
+     </div>
+     
+           <!-- Left Section End -->
+        </div>
+     </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-4">
+  
+  
+  <h3 class="title m_title" style="color: #023EFB;"><strong>NOS SERVICES</u></strong></h3>
+  <p>-<a href="nettoyage-particulier-casablanca.html"> Nettoyage pour les particuliers</a></p>
+  <p>- <a href="nettoyage-professionnel-casablanca.html">Nettoyage pour les professionnels</a></p>
+  <p>- <a href="nettoyage-fin-chantier-casablanca.html">Nettoyage fin de chantier Casablanca</a></p>
+  <p>-<a href="nettoyage-industriel-casablanca.html"> Nettoyage industriel Casablanca</a></p>
+  <p>-<a href="nettoyage-moquettes-casablanca.html"> Nettoyage de moquette Casablanca</a></p>
+  <p>-<a href="societe-nettoyage-poncage-parquet-casablanca.html"> Nettoyage du parquet Casablanca</a></p>
+  <p>-<a href="nettoyage-vitres-casablanca.html"> Nettoyage des vitres Casablanca</a></p>
+  <p>-<a href="societe-nettoyage-cristallisation-marbre-casablanca.html"> Cristallisation du marbre Casablanca </a></p>
+  
+  </div>
+  
+  <div class="col-sm-4">
+  <div class="newsletter-signup">
+  <h3 class="title m_title" style="color: #023EFB;"><strong>Société de nettoyage Casablanca</u></strong></h3>
+  
+  <p> Notre société de <strong>nettoyage sur Casablanca</strong> attache une grande importance à l’image de vos locaux et un vrai savoir-faire dans le secteur du <em>nettoyage</em> et <strong>le ménage</strong> pour cela nous vous offrons des services de qualité et des prix attractifs, par un nombre de sites partout au Maroc.</p>
+  <br>
+  <h3 class="title m_title" style="color: #023EFB;"><strong>Notre site web</u></strong></h3>
+  <ul class="tile">
+  <p>-<a href="http://societe-nettoyage-casablanca.com/"> Accueil</a></p>
+  <p>-<a href="contact-casablanca.php"> Devis en ligne</a></p>
+  <p>-<a href="produits-nettoyage-casablanca.html"> Produits de Nettoyage</a></p>
+  </ul>
+  
+  
+  <div id="notification_container"></div>
+  </div>
+  </div>
+  
+  <div class="col-sm-4">
+  <div>
+  <h3 class="title m_title">CONTACT</u></h3>
+  
+  
+  <div class="contact-details">
+  Mobile : +212 668 31 19 25<br>
+  Fixe : +212 606 38 38 58<br>
+  Fax : +212 522 38 82 38 <br>
+  Adresse 1 : 46 BD Zarktouni, 6éme ETG Casablanca.  <br>
+  Adresse 2 : Rue Ahmed Touki N° 7 étage 2 Casablanca.  <br>
+  Adresse 3 : 10 Rue ghandi R202 Rabat.<br>
+  Email: <a href="contact-casablanca.php"><strong>pnsmaroc@gmail.com </a> <br>
+<br>
+   <a href="societe-nettoyage-entretien-sol-casablanca.html">Nettoyage de Sols</a>
+                    <a href="societe-nettoyage-cristallisation-marbre-casablanca.html">Cristallisation du Marbre - </a>
+                   
+                    <a href="societe-nettoyage-tapis-casablanca.html">Nettoyage des Tapis - </a>
+                    <a href="societe-nettoyage-canapes-casablanca.html">Nettoyage des Canapés - </a>
+                    <a href="societe-nettoyage-chaises-casablanca.html">Nettoyage des chaises - </a>
+                    <a href="societe-nettoyage-cristallisation-carrelage-casablanca.html">Nettoyage de Carrelage - </a>
+                    <a href="societe-nettoyage-cristallisation-mosaique-casablanca.html">Nettoyage de mosaïque - </a>
+                    <a href="societe-Nettoyage-Degraissage-hottes-casablanca.html">Hottes et Système d’extraction - </a>
+                    <a href="societe-nettoyage-ventilation-mecanique-casablanca.html">Ventilation Mécanique Contrôlée -  </a><a href="femme-menage-casablanca.html">Femme de ménage</a> - <a href="nettoyage-bureaux-casablanca.html">Nettoyage Bureaux</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-sm-12">
+  <div class="bottom clearfix">
+  <div class="copyright">
+  <p>© 2023. Buy PNS.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </footer>
+ 
+
+
+
+
+
+  
+</body>
+
+</html>
+
